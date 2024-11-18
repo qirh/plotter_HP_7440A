@@ -1,6 +1,10 @@
 ## Plotting instruction for HP 7440A
 
-Two helpful repos are: [plotter-scripts](https://github.com/dbalan/plotter-scripts) & [plotter-tools](https://github.com/WesleyAC/plotter-tools).
+Helpful repos:
+* https://github.com/codekitchen/drawbot
+* https://github.com/abey79/vpype
+* https://github.com/WesleyAC/plotter-tools
+* https://github.com/dbalan/plotter-scripts
 
 * To create HPGL from text, use [typewriter](https://github.com/WesleyAC/plotter-tools/tree/master/typewriter). Example:
   * `cargo run -- [x] [y] [size] "STRING" /path/font.ttf > /new_file.hpgl`
@@ -10,4 +14,3 @@ Two helpful repos are: [plotter-scripts](https://github.com/dbalan/plotter-scrip
 
 
 https://github.com/user-attachments/assets/8c248b19-73fd-4116-96b5-ca7d240a77f8
-
